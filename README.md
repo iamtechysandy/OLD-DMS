@@ -27,4 +27,7 @@ Features:-
   ================================================================================
   You can coustomize as per your need. 
   This is very Lightweight reprogitory
-  
+    Admin Insert dataInto table-  
+INSERT INTO `users` (`username`, `password`, `email`, `created_at`, `permission_id`, `first_name`, `last_name`)
+VALUES ('admin', '$2y$10$0ZKV7VcsFb1u4Q4s0N.0nOzTj.YTpJvS7.dS4B.m/84jkLs1s4u2G', 'mail@s.com', NOW(), 1, '', '');
+
